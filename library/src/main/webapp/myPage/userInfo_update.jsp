@@ -7,7 +7,7 @@
 	String id = (String) session.getAttribute("id");
 	String menu = request.getParameter("menu");
 %>
-	<!-- 입력한 전화번호가 틀렸다면 -->
+	<!-- 입력한 비밀번호가 틀렸다면 -->
 	<c:if test="${result == 0}">
 		<% out.print("<script>alert('비밀번호가 틀렸습니다.');</script>"); %>		
 	</c:if>
