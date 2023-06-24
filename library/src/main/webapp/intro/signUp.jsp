@@ -89,11 +89,11 @@ if ("signUp".equals(action)) {
 					</div>
 					<div class="form-group">
 						<label for="phoneNumber">전화번호 *</label>
-						<input name="phoneNumber" id="phoneNumber" type="tel" required="required" placeholder="ex) 010-1111-1111">					
+						<input name="phoneNumber" id="phoneNumber" type="tel" required="required">					
 					</div>
 					<div class="form-group">
 						<label for="address">주소 *</label>
-						<input name="address"  id="address" type="text" required="required" placeholder="ex) 부산광역시 수영구">					
+						<input name="address"  id="address" type="text" required="required">					
 					</div>
 					<div class="form-group">
 						<label for="email">이메일</label>
